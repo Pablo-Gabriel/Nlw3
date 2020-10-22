@@ -5,10 +5,10 @@ Happy é uma aplicação, onde você pode marcar horários para visitar criança
 <hr>
 Ferramentas:
 Para essa aplicação foram usadas as seguintes ferramentas:<br>
-* HTML5
-* CSS3
-* JavaScript
-* NodeJs
-* SQLite
+* HTML5 <br>
+* CSS3 <br>
+* JavaScript <br>
+* NodeJs <br>
+* SQLite <br>
 <hr>
  
