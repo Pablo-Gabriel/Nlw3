@@ -11,3 +11,4 @@ Para essa aplicação foram usadas as seguintes ferramentas:
 * NodeJs
 * SQLite
 <hr>
+ 
