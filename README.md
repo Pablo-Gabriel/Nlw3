@@ -16,8 +16,9 @@
 
 <h2>Layout:</h2>
 <p>Os layouts do projeto nos links abaixo, lembrando que é necessário uma conta figma para acessá-los:</p>
-[Layout Web](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1)
-[Layout Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile?node-id=0%3A1)
+[Layout Web](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1)<br>
+[Layout Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile?node-id=0%3A1)<br>
+ <hr>
  
  <h2>Licença:</h2>
  <p>Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.</p>
