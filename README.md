@@ -2,7 +2,7 @@
  
 <h2>Aplicação:</h2> <br> 
 <p>Happy é uma aplicação, onde você pode marcar horários para visitar crianças e levar bastante alegria a elas!</p>
-<p>Aplicação desenvolvida durante a NLW3 pela @RocketSeat</p>
+<p>Aplicação desenvolvida durante a <strong>NLW3</strong> pela <a href="https://github.com/rocketseat">@Rocketseat</a></p>
 
 <hr>
 <h2>Ferramentas:</h2>
