@@ -1,6 +1,6 @@
 # Happy | Leve felicidade para as crianças na sua cidade 
  
-Aplicação: 
+Aplicação: <br> 
 Happy é uma aplicação, onde você pode marcar horários para visitar crianças e levar bastante alegria a elas!
 <hr>
 Ferramentas:
