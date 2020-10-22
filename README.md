@@ -21,4 +21,4 @@
  <hr>
  
  <h2>Licença:</h2>
- <p>Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.</p>
+ <p>Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/Pablo-Gabriel/Nlw3/blob/main/LICENSE">LICENSE</a> para mais detalhes.</p>
