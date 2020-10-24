@@ -1,3 +1,4 @@
+const { registerHelper } = require('hbs');
 const Database = require('./database/db.js');
 const saveOrphanage = require('./database/saveOrphanage');
 
@@ -19,12 +20,8 @@ module.exports = {
             orphanage.images = orphanage.images.split(",")
             orphanage.firstImage = orphanage.images[0]
 
-            if(orphanage.open_on_weekends == "0") {
-                orphanage.open_on_weekends = false
-            } else {
-                orphanage.open_on_weekends = true
-            }
-
+            orphanage.open_on_weekends == "0" ? orphanage.open_on_weekends = false : orphanage.open_on_weekends = true
+        
             console.log(orphanage[0])
             return res.render('orphanage', { orphanage })
         } catch (error) {
@@ -69,18 +66,23 @@ module.exports = {
                 whatsapp: fields.whatsapp,
                 images: fields.images.toString(),
                 instructions: fields.instructions,
-                openin_hours: fields.openin_hours,
+                opening_hours: fields.opening_hours,
                 open_on_weekends: fields.open_on_weekends,
             })            
             
             // redirect
-            return res.redirect('/orphanages')
+            return res.redirect('/register')
             
         } catch (error) {
             console.log(error)
             return res.send('Erro no banco de dados')            
         }
         
+    },
+
+    pageRegister(req, res) {
+        return res.render('register')
     }
+
 
 }

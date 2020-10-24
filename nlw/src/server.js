@@ -23,6 +23,7 @@ server
     .get('/orphanages', pages.orphanages)
     .get('/create-orphanage', pages.createOrphanage)
     .post('/save-orphanage', pages.saveOrphanage)
+    .get('/register', pages.pageRegister)
 
 
 // turn on the server 

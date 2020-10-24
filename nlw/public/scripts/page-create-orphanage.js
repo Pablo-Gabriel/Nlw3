@@ -88,8 +88,14 @@ function toggleSelect(event) {
 function validate(event) {
 
   // validate that lat and lng are filled
-  const needsLatAndLng = true;
-  if (needsLatAndLng) {
+  // const needsLatAndLng = true;
+  // if (needsLatAndLng) {
+  //   event.preventDefault()
+  //   alert('Selecione um ponto no mapa')
+  // }
+  const validate = lat
+  const validateI = lng
+  if ((validate == " ") && validateI == " ") {
     event.preventDefault()
     alert('Selecione um ponto no mapa')
   }
